@@ -3,7 +3,7 @@ This repository contains java related content for beginners and multiple hands-o
 Definition of Java:
 Java is an object-oriented, cross-platform programming language. It is widely used for developing various applications, including web, mobile, desktop, and enterprise software. Java is also used for developing games and other multimedia applications.
 
-##1.	History of Java?
+## 1.	History of Java?
 
 	Developed By:	James Gosling, Mike Sheridan, and Patrick Naughton
 	Developed At: 	Sun Microsystems 
@@ -20,7 +20,7 @@ Java is an island in Indonesia where the first coffee was produced (called Java 
 							Robust,
 							Scalable
 									
-##2.	Features of JAVA?
+## 2.	Features of JAVA?
 
 	Object-Oriented:  Java is an object-oriented programming language, which means that it uses objects to represent data and behavior. Objects are made up of classes, and classes are made up of methods and field
 	Cross-Platform: Java is a cross-platform programming language, which means that it can be run on different platforms, such as Windows, Mac, and Linux. This makes Java a great choice for developing applications that need to be run on multiple platforms.
@@ -40,7 +40,7 @@ All these points make Java robust.
 
 	Scalable: Java is a scalable programming language, which means that it can be used to develop applications that can handle large amounts of data and traffic. This makes Java a great choice for developing applications that need to be scalable.
 
-##3.	Why is JAVA called as platform-independent language?
+## 3.	Why is JAVA called as platform-independent language?
 	
 Source code: Source code in Java is the human-readable text of a Java program, stored in a file (.java) that can be opened in any plain text editor. It contains instructions, declarations, functions, loops, and other statements that can act as instructions to the program on how to function.
 
@@ -66,7 +66,7 @@ Flow:
 
 Here Java Software application is platform independent and can run in any operating system.
 
-##4.	JDK, JRE, JVM ??
+## 4.	JDK, JRE, JVM ??
 
 JDK:
 
