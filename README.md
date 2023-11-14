@@ -1,4 +1,4 @@
-# Java_GFG
+# Java_EdNTech360
 This repository contains java related content for beginners and multiple hands-on codes
 Definition of Java:
 Java is an object-oriented, cross-platform programming language. It is widely used for developing various applications, including web, mobile, desktop, and enterprise software. Java is also used for developing games and other multimedia applications.
