@@ -1,6 +1,6 @@
 package wrapperClasses;
 
-public class IntegerWrapperClass {
+public class IntToInteger_WC {
 
 	public static void main(String[] args) {
 		// Converting int ( primitive data ) to Integer ( object )
