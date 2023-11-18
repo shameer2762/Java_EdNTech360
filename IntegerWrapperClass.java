@@ -15,5 +15,15 @@ public class IntegerWrapperClass {
 		int primitiveInt2 = integerObject2.intValue(); // Converted Object to primitive
 		System.out.println(primitiveInt2); // printed the output
 
+		// Print data type of Integer Object
+
+		Class<?> integerObject1Class = integerObject1.getClass(); // It will create a Class object from the Integer
+																	// object1
+		System.out.println(integerObject1Class.getName()); // It will print the name of the Class object, which is
+															// "java.lang.Integer"
+
+		// or
+
+		System.out.println(integerObject1.getClass().getName()); // single line solution without creating Object Class
 	}
 }
