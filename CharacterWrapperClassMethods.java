@@ -26,20 +26,27 @@ public class CharacterWrapperClassMethods {
 
 //***************** <character1>.equals(<character2>) **********************
 
-		Character ch4 = '1'; // Initializing ch1 as 5
-		Character ch5 = '1'; // Initializing ch1 as 5
+		Character ch4 = '1';
+		Character ch5 = '1';
 
 		System.out.println(ch4.equals(ch5));
 
 //**************** <character1>.comareTo(<character2>) *******************
 
-		Character ch6 = 'b'; // Initializing ch1 as 5
-		Character ch7 = 'a'; // Initializing ch1 as 5
+		Character ch6 = 'b';
+		Character ch7 = 'a';
 
 		System.out.println(ch6.compareTo(ch7));
 
 // Note:  equals compares the content of the variables like 'A'=='B' and return boolean value
 // compareTo converts values to Unicode values then subtract and will return +1 or 0 or -1
+
+//***************** Character.isJavaIdentifierStart(<char value>) ***************
+
+		Character ch8 = '_';
+		System.out.println(Character.isJavaIdentifierStart(ch8));
+
+
 	}
 
 }
