@@ -88,9 +88,9 @@ JVM:
 4)	It does not physically exist. 
 5)	It contains only a runtime environment for executing the Java byte code.
 
-JDK = { JRE } + Development tools (compilers, debuggers, etc.., ) 
-JRE = { JVM } + Libraries & jar files
-JVM = Java Virtual Machine
+* JDK = { JRE } + Development tools (compilers, debuggers, etc.., )
+* JRE = { JVM } + Libraries & jar files
+* JVM = Java Virtual Machine
 	
  
                     
