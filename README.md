@@ -22,14 +22,14 @@ Java is an island in Indonesia where the first coffee was produced (called Java 
 									
 ## 2.	Features of JAVA?
 
-	Object-Oriented:  Java is an object-oriented programming language, which means that it uses objects to represent data and behavior. Objects are made up of classes, and classes are made up of methods and field
-	Cross-Platform: Java is a cross-platform programming language, which means that it can be run on different platforms, such as Windows, Mac, and Linux. This makes Java a great choice for developing applications that need to be run on multiple platforms.
-	 Write Once, Run Anywhere (WORA): Java is a write once, run anywhere (WORA) programming language, which means that Java code can be compiled once and run on any platform that has a Java Virtual Machine (JVM). This makes Java a great choice for developing applications that need to be run on a variety of platforms.
-	Secure: Java is a secure programming language, which means that it is designed to prevent malicious code from being executed. This makes Java a great choice for developing applications that need to be secure.
-	Portable: Java is a portable programming language, which means that Java code can be easily moved from one platform to another. This makes Java a great choice for developing applications that need to be portable.
-	Robust: Robust is a term used to describe a computer program that performs in several ways and has a very low failure rate. Robust computer applications often perform well under both ordinary and unusual conditions
+1. Object-Oriented:  Java is an object-oriented programming language, which means that it uses objects to represent data and behavior. Objects are made up of classes, and classes are made up of methods and field
+2. Cross-Platform: Java is a cross-platform programming language, which means that it can be run on different platforms, such as Windows, Mac, and Linux. This makes Java a great choice for developing applications that need to be run on multiple platforms.
+3. Write Once, Run Anywhere (WORA): Java is a write once, run anywhere (WORA) programming language, which means that Java code can be compiled once and run on any platform that has a Java Virtual Machine (JVM). This makes Java a great choice for developing applications that need to be run on a variety of platforms.
+4. Secure: Java is a secure programming language, which means that it is designed to prevent malicious code from being executed. This makes Java a great choice for developing applications that need to be secure.
+5. Portable: Java is a portable programming language, which means that Java code can be easily moved from one platform to another. This makes Java a great choice for developing applications that need to be portable.
+6. Robust: Robust is a term used to describe a computer program that performs in several ways and has a very low failure rate. Robust computer applications often perform well under both ordinary and unusual conditions
 	
-The English mining of Robust is strong. Java is robust because:
+The English meaning of Robust is strong. Java is robust because:
 
  	It uses strong memory management.
  	There is a lack of pointers that avoid security problems.
@@ -38,7 +38,7 @@ The English mining of Robust is strong. Java is robust because:
 
 All these points make Java robust.
 
-	Scalable: Java is a scalable programming language, which means that it can be used to develop applications that can handle large amounts of data and traffic. This makes Java a great choice for developing applications that need to be scalable.
+7. Scalable: Java is a scalable programming language, which means that it can be used to develop applications that can handle large amounts of data and traffic. This makes Java a great choice for developing applications that need to be scalable.
 
 ## 3.	Why is JAVA called as platform-independent language?
 	
@@ -88,9 +88,9 @@ JVM:
 4)	It does not physically exist. 
 5)	It contains only a runtime environment for executing the Java byte code.
 
-JDK = { JRE } + Development tools (compilers, debuggers, etc.., ) 
-JRE = { JVM } + Libraries & jar files
-JVM = Java Virtual Machine
+* JDK = { JRE } + Development tools (compilers, debuggers, etc.., )
+* JRE = { JVM } + Libraries & jar files
+* JVM = Java Virtual Machine
 	
  
                     
