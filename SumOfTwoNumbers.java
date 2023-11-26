@@ -31,5 +31,10 @@ public class SumOfTwoNumbers {
         //System.out.printf("sum of %h and %h is %h", a,b,sum);
         //System.out.printf("sum of %h and %h is %h",a,b,sum);
         System.out.printf("sum of %dl and %dl is %dl",a,b,sum);
+
+
+        System.out.println();
+        boolean b1 = sc.hasNextInt();
+        System.out.println(b1);
     }
 }
