@@ -1,4 +1,4 @@
-package wrapperClasses;
+package Java_EdNTech360;
 
 public class CharacterWrapperClassMethods {
 
