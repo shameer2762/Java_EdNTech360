@@ -32,9 +32,18 @@ public class SumOfTwoNumbers {
         //System.out.printf("sum of %h and %h is %h",a,b,sum);
         System.out.printf("sum of %dl and %dl is %dl",a,b,sum);
 
+//**************** To check whether input is int or not ***********
 
-        System.out.println();
         boolean b1 = sc.hasNextInt();
         System.out.println(b1);
+
+//********************* Read Single word string ********************************
+        System.out.print("Enter word : ");
+        String str1 = sc.next();
+        System.out.println(str1);
+//********************** Reading complete string ******************
+        System.out.print("Enter complete string : \n");
+        String str2 = sc.nextLine();
+        System.out.println(str2);
     }
 }
