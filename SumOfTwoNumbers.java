@@ -7,11 +7,11 @@ public class SumOfTwoNumbers {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter input a : ");
-        //int a = sc.nextInt();
-        //float a = sc.nextFloat();
-        //short a = sc.nextShort();
-        //byte a = sc.nextByte();
-        long a = sc.nextLong();
+        //int a = sc.nextInt(); // read int value
+        //float a = sc.nextFloat();  // read float value
+        //short a = sc.nextShort();  // read short value
+        //byte a = sc.nextByte();   // read byte value
+        long a = sc.nextLong();     // read long value
 
         System.out.print("Enter input b : ");
 
