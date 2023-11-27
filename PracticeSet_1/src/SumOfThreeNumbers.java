@@ -1,4 +1,3 @@
-package Java_EdNTech360;
 import java.util.Scanner;
 
 public class SumOfThreeNumbers {
