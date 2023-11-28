@@ -56,6 +56,6 @@ public class ArrayListMethods {
 
         System.out.println("Check List is empty ? :"+l1.isEmpty());
 
-       
+
     }
 }
