@@ -70,7 +70,8 @@ public class StringMethods {
 
 
 //********** 12. str.toString(<!string>)  -> to make other types to string type
-       // int ab = 3;
+
+        Integer ab = 1;
         System.out.println(ab.toString());
 
 
