@@ -5,95 +5,95 @@ public class PracticeSet_4_P4 {
         Scanner sc = new Scanner(System.in);
 
 //******* Problem-1: If age is above 18 print your are eligible for vote else not
-//        System.out.print("Enter your age: ");
-//        int age = sc.nextInt();
-//        if(age>=18){
-//            System.out.println("1: you are eligible vote");
-//        }else{
-//            System.out.println("1: you are not eligible to vote.");
-//        }
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
+        if(age>=18){
+            System.out.println("1: you are eligible vote");
+        }else{
+            System.out.println("1: you are not eligible to vote.");
+        }
 //*********  Problem-2: Pass or fail based on percentage
 
-//        System.out.print("Enter maximum Marks : ");
-//        int maxMarks = sc.nextInt();
-//
-//        System.out.print("Enter subject-1 Marks : ");
-//        int subject1 = sc.nextInt();
-//        System.out.print("Enter subject-2 Marks : ");
-//        int subject2 = sc.nextInt();
-//        System.out.print("Enter subject-3 Marks : ");
-//        int subject3 = sc.nextInt();
-//
-//        int per1 = subject1*100/maxMarks;
-//        int per2 = subject2*100/maxMarks;
-//        int per3 = subject3*100/maxMarks;
-//
-//        int totalPercentage = (subject1+subject2+subject3)*100/(maxMarks*3);
-//        if(per1 < 33 || per2 < 33 || per3 < 33){
-//            System.out.println("2: You are failed!!");
-//        }else if(totalPercentage < 40){
-//            System.out.println("2: You are failed!!");
-//        }else{
-//            System.out.println("2: Congrats!! you pss");
-//        }
+        System.out.print("Enter maximum Marks : ");
+        int maxMarks = sc.nextInt();
+
+        System.out.print("Enter subject-1 Marks : ");
+        int subject1 = sc.nextInt();
+        System.out.print("Enter subject-2 Marks : ");
+        int subject2 = sc.nextInt();
+        System.out.print("Enter subject-3 Marks : ");
+        int subject3 = sc.nextInt();
+
+        int per1 = subject1*100/maxMarks;
+        int per2 = subject2*100/maxMarks;
+        int per3 = subject3*100/maxMarks;
+
+        int totalPercentage = (subject1+subject2+subject3)*100/(maxMarks*3);
+        if(per1 < 33 || per2 < 33 || per3 < 33){
+            System.out.println("2: You are failed!!");
+        }else if(totalPercentage < 40){
+            System.out.println("2: You are failed!!");
+        }else{
+            System.out.println("2: Congrats!! you pss");
+        }
 //******  Problem-3: Tax Calculation
-//        System.out.print("Enter your income : ");
-//        float income = sc.nextFloat();
-//
-//        if(income <= 2.5){
-//            System.out.println("3: No tax deduction");
-//        }else if(income > 2.5 && income <= 5.0 ){
-//            float tax = (income*5/100)*10000;
-//            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
-//        }else if(income > 5.0 && income <= 10.0 ){
-//            float tax = (income*20/100)*10000;
-//            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
-//        }else{
-//            float tax = (income*30/100)*10000;
-//            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
-//        }
+        System.out.print("Enter your income : ");
+        float income = sc.nextFloat();
+
+        if(income <= 2.5){
+            System.out.println("3: No tax deduction");
+        }else if(income > 2.5 && income <= 5.0 ){
+            float tax = (income*5/100)*10000;
+            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
+        }else if(income > 5.0 && income <= 10.0 ){
+            float tax = (income*20/100)*10000;
+            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
+        }else{
+            float tax = (income*30/100)*10000;
+            System.out.printf("3: your tax deduction amount is : %.2f rupees",tax).println();
+        }
 //******* Problem-4: Switch case to find out day of the week
-//        System.out.print("Enter number for the day : ");
-//        int dayNumber = sc.nextInt();
-//        // Legacy switch Implementation
-//        switch(dayNumber){
-//            case 1:
-//                System.out.println("Monday");
-//                break;
-//            case 2:
-//                System.out.println("Tuesday");
-//                break;
-//            case 3:
-//                System.out.println("Wednesday");
-//                break;
-//            case 4:
-//                System.out.println("Thursday");
-//                break;
-//            case 5:
-//                System.out.println("Friday");
-//                break;
-//            case 6:
-//                System.out.println("Saturday");
-//                break;
-//            case 7:
-//                System.out.println("Sunday");
-//                break;
-//            default:
-//                System.out.println("Don't know");
-//        }
-//
+        System.out.print("Enter number for the day : ");
+        int dayNumber = sc.nextInt();
+        // Legacy switch Implementation
+        switch(dayNumber){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Don't know");
+        }
+
 //        // Enhanced Switch Implementation
-//
-//        switch (dayNumber){
-//            case 1 -> System.out.println("monday");
-//            case 2 -> System.out.println("Tuesday");
-//            case 3 -> System.out.println("Wednesday");
-//            case 4 -> System.out.println("Thursday");
-//            case 5 -> System.out.println("Friday");
-//            case 6 -> System.out.println("Saturday");
-//            case 7 -> System.out.println("Sunday");
-//            default -> System.out.println("None");
-//        }
+
+        switch (dayNumber){
+            case 1 -> System.out.println("monday");
+            case 2 -> System.out.println("Tuesday");
+            case 3 -> System.out.println("Wednesday");
+            case 4 -> System.out.println("Thursday");
+            case 5 -> System.out.println("Friday");
+            case 6 -> System.out.println("Saturday");
+            case 7 -> System.out.println("Sunday");
+            default -> System.out.println("None");
+        }
 //**********  Problem-5: Leap Year check
 
         System.out.print("Enter year : ");
